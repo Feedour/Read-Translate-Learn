@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RTL</string> <!-- Read-Translate-Learn -->
+    <string name="item_font">Change font size</string>
+    <string name="item_day_mode">Change mode</string>
+    <string name="item_dictionary">Open </string>
+</resources>

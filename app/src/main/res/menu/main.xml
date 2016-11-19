@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_menu_item_font"
+        android:title="@string/item_font"
+        android:icon="@drawable/font_size"
+        app:showAsAction="always">
+    </item>
+    <item
+    android:id="@+id/main_menu_item_dictionary"
+    android:title="@string/item_dictionary"
+    android:icon="@drawable/dictionary"
+    app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/main_menu_item_day_mode"
+        android:title="@string/item_day_mode"
+        android:icon="@drawable/half_moon_and_sun"
+        app:showAsAction="always">
+    </item>
+</menu>
