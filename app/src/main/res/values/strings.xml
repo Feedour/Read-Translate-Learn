@@ -6,15 +6,25 @@
     <string name="item_dictionary">Open </string>
     <string name="file_list">Files</string>
 
-    <string-array name="temp_dictionaty_data">
-        <item name="word_1">word_1</item>
-        <item name="word_2">word_2</item>
-        <item name="word_3">word_3</item>
-        <item name="word_4">word_4</item>
-        <item name="word_5">word_5</item>
-        <item name="word_6">word_6</item>
-        <item name="word_7">word_7</item>
-        <item name="word_8">word_8</item>
+    <string-array name="temp_dictionaty_data_eng">
+        <item name="word_eng_1">word_1</item>
+        <item name="word_eng_2">word_2</item>
+        <item name="word_eng_3">word_3</item>
+        <item name="word_eng_4">word_4</item>
+        <item name="word_eng_5">word_5</item>
+        <item name="word_eng_6">word_6</item>
+        <item name="word_eng_7">word_7</item>
+        <item name="word_eng_8">word_8</item>
+    </string-array>
+    <string-array name="temp_dictionaty_data_rus">
+        <item name="word_rus_1">слово_1</item>
+        <item name="word_rus_2">слово_2</item>
+        <item name="word_rus_3">слово_3</item>
+        <item name="word_rus_4">слово_4</item>
+        <item name="word_rus_5">слово_5</item>
+        <item name="word_rus_6">слово_6</item>
+        <item name="word_rus_7">слово_7</item>
+        <item name="word_rus_8">слово_8</item>
     </string-array>
     <string-array name="temp_file_list_data">
         <item name="file_1">File_1.txt</item>
