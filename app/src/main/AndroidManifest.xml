@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DictionaryActivity"
+            android:label="@string/activity_dictionary_label" />
+        <activity android:name=".FileListActivity"></activity>
     </application>
 
 </manifest>

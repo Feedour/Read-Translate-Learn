@@ -1,6 +1,30 @@
 <resources>
     <string name="app_name">RTL</string> <!-- Read-Translate-Learn -->
+    <string name="activity_dictionary_label">Словарь</string>
     <string name="item_font">Change font size</string>
     <string name="item_day_mode">Change mode</string>
     <string name="item_dictionary">Open </string>
+    <string name="file_list">Files</string>
+
+    <string-array name="temp_dictionaty_data">
+        <item name="word_1">word_1</item>
+        <item name="word_2">word_2</item>
+        <item name="word_3">word_3</item>
+        <item name="word_4">word_4</item>
+        <item name="word_5">word_5</item>
+        <item name="word_6">word_6</item>
+        <item name="word_7">word_7</item>
+        <item name="word_8">word_8</item>
+    </string-array>
+    <string-array name="temp_file_list_data">
+        <item name="file_1">File_1.txt</item>
+        <item name="file_2">File_2.txt</item>
+        <item name="file_3">File_3.txt</item>
+        <item name="file_4">File_4.txt</item>
+        <item name="file_5">File_5.txt</item>
+        <item name="file_6">File_6.txt</item>
+        <item name="file_7">File_7.txt</item>
+        <item name="file_8">File_8.txt</item>
+    </string-array>
+    <string name="temp_main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac arcu ut enim sollicitudin consectetur. Cras faucibus ex in semper blandit. Vivamus vehicula sagittis rutrum. Vivamus nunc turpis, feugiat vel aliquam sit amet, luctus nec enim. Donec dapibus purus ipsum, vel venenatis nibh varius sed. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam lacinia efficitur elementum. Fusce in dapibus dolor. In consectetur pellentesque arcu, id porta turpis vehicula et.\nNullam ultricies elit malesuada, sagittis enim ut, laoreet ligula. Etiam vitae eros vel magna condimentum pulvinar. Curabitur imperdiet, libero vel ultrices congue, sem turpis eleifend neque, eget aliquam ex lectus vitae enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque consequat, lorem sed varius porta, nulla dolor facilisis justo, et egestas augue lorem in urna. Ut in tellus elit. Proin molestie nibh vitae nunc gravida laoreet. Proin tristique a metus at hendrerit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nec risus quis lorem interdum volutpat dapibus id nisl. Proin molestie risus et lacus ultrices, sed dapibus lorem lacinia. In congue cursus blandit. Maecenas facilisis felis ex, id tempor velit commodo ac.</string>
 </resources>
