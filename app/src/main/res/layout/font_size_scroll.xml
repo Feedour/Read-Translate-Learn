@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/font_size_scroll_plusBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/plus"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/font_size_scroll_text"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text = "0"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/font_size_scroll_minusBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/minus"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <SeekBar
+        android:id="@+id/font_size_scroll_seek_bar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:thumbTint="@color/colorPrimary"
+        android:max="255"/>
+
+</LinearLayout>

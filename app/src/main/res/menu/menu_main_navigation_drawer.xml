@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group> <!--android:checkableBehavior="single"-->
+        <item
+            android:id="@+id/main_nav_menu_files"
+            android:title = "@string/file_list"/>
+        <item
+            android:id="@+id/main_nav_menu_words"
+            android:title="@string/activity_dictionary_label"/>
+        <item
+            android:id="@+id/main_nav_menu_settings"
+            android:title="@string/settings_label"/>
+    </group>
+</menu>

@@ -1,10 +1,15 @@
 <resources>
     <string name="app_name">RTL</string> <!-- Read-Translate-Learn -->
-    <string name="activity_dictionary_label">Словарь</string>
+    <string name="activity_dictionary_label">Dictionary</string>
     <string name="item_font">Change font size</string>
     <string name="item_day_mode">Change mode</string>
-    <string name="item_dictionary">Open </string>
+    <string name="item_dictionary">Open</string>
     <string name="file_list">Files</string>
+    <string name="settings_label">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 
     <string-array name="temp_dictionaty_data_eng">
         <item name="word_eng_1">word_1</item>
