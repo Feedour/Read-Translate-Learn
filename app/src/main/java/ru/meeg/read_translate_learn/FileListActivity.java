@@ -15,7 +15,7 @@ public class FileListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_file_list);
 
-        listView = (ListView)findViewById(R.id.file_list_list);
+        listView = (ListView)findViewById(R.id.file_list_rv);
         String s[] = getResources().getStringArray(R.array.temp_file_list_data);
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,s);
         listView.setAdapter(arrayAdapter);
