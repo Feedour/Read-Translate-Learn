@@ -1,5 +1,6 @@
 package ru.meeg.read_translate_learn;
 
+import android.support.v4.app.DialogFragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -13,14 +14,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.design.widget.NavigationView;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.content.res.Configuration;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
-    implements NavigationView.OnNavigationItemSelectedListener{
+    implements NavigationView.OnNavigationItemSelectedListener, FontSizeDialogFragment.FontSizeDialogListener{
 
 
-    private TextView textView; //используется в смене размера шрифта и добавлении слов в словарь
+    private TextView textView;
     private DrawerLayout drawer;
     private Toolbar toolbar;
 
@@ -46,6 +49,16 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nvView);
         navigationView.setNavigationItemSelectedListener(this);
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
     }
 
     @Override
@@ -77,6 +90,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.main_menu_item_font: {
                 Log.d("TAG_CLICK", "Пункт меню: смена размера шрифта");
 
+                showFontSizeDialog();
                 //textView.setTextSize();
 
                 return true;
@@ -111,6 +125,29 @@ public class MainActivity extends AppCompatActivity
             }
         }
     }
+
+    public void showFontSizeDialog(){
+        DialogFragment dialog = new FontSizeDialogFragment();
+        dialog.show(getSupportFragmentManager(),"FontSizeFragment");
+    }
+
+    @Override
+    public void onDialogPositiveClick(DialogFragment dialog, EditText editText) {
+
+        if (dialog != null && editText != null) {
+            int value = Integer.valueOf(editText.getText().toString());
+
+            if (value > 0) {
+                if (value > 100){
+                    value = 100;
+                }
+            } else {
+                value = 24;
+            }
+            textView.setTextSize((float) value);
+        }
+    }
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {

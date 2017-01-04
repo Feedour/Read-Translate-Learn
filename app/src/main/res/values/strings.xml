@@ -6,7 +6,11 @@
     <string name="item_dictionary">Open</string>
     <string name="file_list">Files</string>
     <string name="settings_label">Settings</string>
-
+    
+    <string name="font_size_fragment_title">"Font size"</string>
+    <string name="font_size_fragment_confim">Confim</string>
+    <string name="font_size_fragment_cancel">Cancel</string>
+    
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -42,4 +46,5 @@
         <item name="file_8">File_8.txt</item>
     </string-array>
     <string name="temp_main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac arcu ut enim sollicitudin consectetur. Cras faucibus ex in semper blandit. Vivamus vehicula sagittis rutrum. Vivamus nunc turpis, feugiat vel aliquam sit amet, luctus nec enim. Donec dapibus purus ipsum, vel venenatis nibh varius sed. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam lacinia efficitur elementum. Fusce in dapibus dolor. In consectetur pellentesque arcu, id porta turpis vehicula et.\nNullam ultricies elit malesuada, sagittis enim ut, laoreet ligula. Etiam vitae eros vel magna condimentum pulvinar. Curabitur imperdiet, libero vel ultrices congue, sem turpis eleifend neque, eget aliquam ex lectus vitae enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque consequat, lorem sed varius porta, nulla dolor facilisis justo, et egestas augue lorem in urna. Ut in tellus elit. Proin molestie nibh vitae nunc gravida laoreet. Proin tristique a metus at hendrerit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nec risus quis lorem interdum volutpat dapibus id nisl. Proin molestie risus et lacus ultrices, sed dapibus lorem lacinia. In congue cursus blandit. Maecenas facilisis felis ex, id tempor velit commodo ac.</string>
+
 </resources>
